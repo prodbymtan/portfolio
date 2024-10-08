@@ -19,7 +19,7 @@ function createStar() {
   star.style.top = `${y}px`;
 
   // Set random lifetime for the star (optional)
-  const lifetime = Math.random() * 5 + 2; // Between 2 and 7 seconds
+  const lifetime = Math.random() * 4 + 1; // Between 2 and 7 seconds
   star.style.animationDuration = `${lifetime}s`;
 
   container.appendChild(star);
