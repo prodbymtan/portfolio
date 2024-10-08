@@ -26,4 +26,4 @@ function createStar() {
 }
 
 // Create new stars every second
-setInterval(createStar, 250); // Every 1 second
+setInterval(createStar, Math.PI/100); // Every 1/4 second
